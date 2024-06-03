@@ -3,7 +3,8 @@ module github.com/gnaivex/auth
 go 1.22
 
 require (
-	github.com/gnaivex/tools v0.0.1
+	github.com/gnaivex/tools v0.0.4
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/mock v1.6.0
 	go.opentelemetry.io/otel v1.27.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.17.0
